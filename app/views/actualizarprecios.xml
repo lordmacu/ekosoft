@@ -1,0 +1,56 @@
+<Alloy>
+			<Window class="container" id="ventanaactualizar" backgroundColor="white">
+
+
+<View>
+	<View id="headerpedidosugerido"  top="0" height="15%" >
+				<Button class="botongeneral" top="0" right="10%" onClick="guardaractualizacion" >ENVIAR PRECIOS ACTUALIZADOS</Button>
+<Label left="10%"> Actualizacion al 10%</Label>
+			</View>
+			
+		<View id="bodypedidosugerido"  bottom="0" height="85%" >
+				<View id="tablapedidohead"  top="0" height="10%" ></View>
+				<View id="tablapedido"  bottom="0" height="90%" ></View>
+			</View>
+			
+				<View id="popupagregarpedidosugerido" top="-1000000" width="50%" height="35%" backgroundColor="white" borderColor="#007400" borderWidth="2">
+				<View id="bodypopuppedidosugerido" top="0" height="70%">
+					<Label id="nombreproductopopup" top="10%"></Label>
+					<TextField class="inputgeneral" hintText="Cantiad pedido" left="4%" top="35%"></TextField>
+					<Picker backgroundColor="#99B199" id="pickerempaques" top="35%" right="4%"    ></Picker>
+
+				</View>
+				<View id="footpopuppedidosugerido" top="50%" height="30%">
+					<Button class="botongeneral" bottom="4%" left="4%" onClick="generartabla" >GUARDAR</Button>
+					<Button class="botongeneral"  bottom="4%" right="4%" onClick="cerrarpopuppedido"  >CANCELAR</Button>
+				</View>
+
+			</View>
+			
+</View>
+
+<View height="250" id="actualizarcontactu"  borderColor="#007400" borderWidth="2"  top="0" backgroundColor="white"  width="80%">
+	<View height="25%" id="headerviewactualizacion" top="0" left="20">
+		<Label id="nombrepresentacionactuaolizar">Arveja 1 - KILO costo unitario $ 400</Label>
+	</View>
+	<View height="85%" id="bodyviewactualizacion">
+		<Label height="50" id="costopresentacionlavel" top="20" left="20"></Label>
+	<Label left="20" top="60" id="preciosugerido"> Precio sugerido $ 700</Label> <Label right="150" top="60">Peso Mercaderista</Label> <TextField id="pesosugeriditext" top="60" right="20" width="100">1</TextField>
+	
+	<Label top="110" left="20" id="pesosugeridolabel"> Peso sugerido : 1</Label> <Label right="150" top="110">Precio mercaderista</Label> <TextField      id="textpreciomercaderista"  top="110" right="20" width="100"> 1</TextField>
+	<Button right="10" top="160"  class="botongeneral" onClick="actualizarprecios" >Actualizar precio</Button>
+	</View>
+	
+</View>
+
+<View  id="contenedorvalidacion"  borderColor="#007400" borderWidth="2"  height="40%" top="0" backgroundColor="white"  width="40%">
+
+<View id="headertitulo" width="70%" height="10%" top="10"><Label>Ekosoft</Label></View>
+	<View id="bodycontinuar"  width="70%" height="80%" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"><Label>Se está actualizando los precios, esto puede demorar un poco. Una vez concluido el proceso toque el botón continuar.</Label> </View>
+
+<View bottom="10" id="contconinuar" height="10%" width="100%" onClick="cerrarviewactualizacion"> <Label>CONTINUAR</Label></View>
+</View>
+
+
+		</Window>
+</Alloy>

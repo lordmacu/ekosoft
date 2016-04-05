@@ -1,0 +1,59 @@
+<Alloy>
+			<Window class="container" id="pedidocomprasugerido" backgroundColor="white">
+
+
+<View>
+	<Label> hola</Label>
+	<View id="headerpedidosugerido"  top="0" height="15%" >
+				<Button class="botongeneral" top="0" right="10%" onClick="guardarpedidocompra" >GUARDAR PEDIDO DE COMPRA</Button>
+				<Button class="botongeneral" top="0" left="10%" onClick="cerrarventana" >VOLVER</Button>
+				<Button class="botongeneral" top="0"  onClick="agregarproductopedido" >AGREGAR PRODUCTO</Button>
+
+			</View>
+			
+		<View id="bodypedidosugerido"  bottom="0" height="85%" >
+				<View id="tablapedidohead"  top="0" height="10%" ></View>
+				<View id="tablapedido"  bottom="0" height="90%" ></View>
+			</View>
+			
+				<View id="popupagregarpedidosugerido" top="-1000000" width="50%" height="35%" backgroundColor="white" borderColor="#007400" borderWidth="2">
+				<View id="bodypopuppedidosugerido" top="0" height="70%">
+					<Label id="nombreproductopopup" top="10%"></Label>
+					<TextField keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD"  id="inputcantidad" hintText="Cantiad pedido" left="4%" top="35%"></TextField>
+					<Picker backgroundColor="#99B199" id="pickerempaques" top="35%" right="4%"    ></Picker>
+
+				</View>
+				<View id="footpopuppedidosugerido" top="50%" height="30%">
+					<Button class="botongeneral" bottom="4%" left="4%" onClick="updatepedidocompra" >GUARDAR</Button>
+					<Button class="botongeneral"  bottom="4%" right="4%" onClick="cerrarpopuppedido"  >CANCELAR</Button>
+				</View>
+
+			</View>
+			
+</View>
+<View id="popupcomprapop" top="-1000000"  width="50%" height="35%" backgroundColor="white" borderColor="#007400" borderWidth="2">
+				<View id="bodypopuppedidosugerido" top="0" height="70%">
+					<TextField autocorrect="false" id="inputgeneralmod" class="inputgeneralmod" hintText="Producto" color="#007400" width="300"  top="10%"></TextField>
+					<TextField class="inputgeneralmod" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD" color="#007400" id="cantidadmod" hintText="Cantidad" width="100" left="4%" top="55%"></TextField>
+					<Picker backgroundColor="#99B199" id="presentacionpicker" width="200" top="55%" right="4%"    ></Picker>
+
+				</View>
+				<View id="footpopuppedidosugerido" top="65%" height="30%">
+					<Button class="botongeneralsm" bottom="4%" left="4%" onClick="agregarpruductotabla" >GUARDAR</Button>
+					<Button class="botongeneralsm"  bottom="4%" right="4%" onClick="cerrarpopuppecomprados"  >CANCELAR</Button>
+				</View>
+
+			</View>
+	
+			<View id="tablaproductotemporal" top="-1000000" width="100%" height="60%" top="0" backgroundColor="white" >
+
+				<View id="contenedortabalproductotempreaobody" top="0" height="90%"></View>
+				<View id="contenedortabalproductotempreaofooter" bottom="0" height="10%">
+					<Button class="botongeneral"  bottom="4%" right="4%" onClick="cerrarselectorproductos">OCULTAR</Button>
+
+				</View>
+
+			</View>
+
+		</Window>
+</Alloy>

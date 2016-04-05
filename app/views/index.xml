@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<View id="login" >
+			<ImageView  top="10%" image="/img/logo.png"></ImageView>
+			<TextField left="25%" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD" class="inputgeneral" hintText="Cedula" id="cedula"></TextField>
+			<TextField right="25%" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD" class="inputgeneral" hintText="Contraseña" id="pass"></TextField>
+			<Button class="botongeneral" id="botongeneraliniciar" onClick="loginaplicacion" bottom="25%">INICIAR SESIÓN</Button>
+			<Label id="cargando" bottom="10%"></Label>
+		</View>
+		
+	</Window>
+</Alloy>

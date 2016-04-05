@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container" backgroundColor="white">
+			<View top="0" height="50%">
+				<Label top="5%" textAlign="center" width="80%" id="bienvenida"></Label>
+				<Button class="botongeneral" left="25%" bottom="40%" onClick="realizarpedidoventana" width="150">REALIZAR PEDIDO</Button>
+				<Button class="botongeneral" right="25%" bottom="40%" onClick="comprar" width="150">COMPRAR</Button>
+				<Button class="botongeneral" bottom="10%" onClick="registrarmovimientoefectivo">REGISTRAR MOVIMIENTO EFECTIVO</Button>
+
+			</View>
+			<View id="viewextra"  height="50%" bottom="-10000" backgroundColor="#F7F7F7" borderColor="#E8E8E8" borderRadius="2" borderWidth="1">
+				<Button top="4%" right="4%" class="oculatar" width="100" height="30" onClick="ocultarpanelextra">ocultar</Button>
+				
+				<Label top="15%" id="labeltextosugerido">Para registrar sugerido debe identificar el almacen para el cual va a hacer el pedido.</Label>
+				<Picker backgroundColor="#99B199" id="pickerempresa" bottom="50%"></Picker>
+				<Button id="botovalidar" class="botongeneral" bottom="10%" onClick="validar">VALIDAR</Button>
+			</View>
+		
+	</Window>
+
+</Alloy>

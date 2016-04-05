@@ -1,0 +1,10 @@
+
+<Alloy>
+		<Window id="failedwindow" class="container" backgroundColor="white">
+
+			<Label top="25%" width="80%">En caso de que creas que has ingresado mal tu usuario o contraseña puedes intertarlo de nuevo. En caso contrario, lo sentimos, no puedes realizar ninguna acción en la app pues no tienes los permisos suficientes.</Label>
+			<Button class="botongeneral" bottom="35%" onClick="cerrarfiled">VOLVER A INTENTAR</Button>
+	
+		</Window>
+
+</Alloy>

@@ -1,0 +1,32 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+} 
+
+".oculatar":{
+		font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+	backgroundColor:"#007400",
+
+}
+
+".inputgeneral":{
+	borderWidth:"1",
+	borderColor:"#007400",
+	width:"200",
+	color:"#007400",
+ }
+
+
+".botongeneral":{
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}

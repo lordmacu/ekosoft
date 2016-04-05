@@ -1,0 +1,31 @@
+
+".container" : {
+  
+}
+
+
+"TextField" : {
+  borderColor:"#007400",
+  borderWidth:1,
+  color:"#007400",
+}
+
+
+"Label" : {
+
+  color:"#007400",
+}
+
+
+".botongeneral":{
+height:"30",
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+
+
+".botongeneralsm":{
+	height:"30",
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}

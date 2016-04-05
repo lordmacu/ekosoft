@@ -1,0 +1,54 @@
+
+"TextField" : {
+  borderColor:"#007400",
+  borderWidth:1,
+  color:"#007400",
+}
+
+
+"Button" : {
+
+ height:"30",
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+
+"Label" : {
+
+  color:"#007400",
+}
+
+
+"#titulopopcompra":{
+		font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '20', fontWeight: 'bold'},
+
+ }
+
+".inputgeneral":{
+	borderWidth:"1",
+	borderColor:"#007400",
+	width:"200",
+	color:"#007400",
+ }
+
+
+
+".botongeneralsm":{
+	height:"30",
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+
+
+".botongeneral":{
+height:"30",
+	backgroundColor:"#007400",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+
+".botongeneralblanco":{
+	backgroundColor:"white",
+	color:"black",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+	height:"30"
+}
